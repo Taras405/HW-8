@@ -20,7 +20,6 @@
 
 .lessons-container {
     display: flex;
-    justify-content: space-between;
 }
 
 .lessons-container ul {

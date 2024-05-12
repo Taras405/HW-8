@@ -17,3 +17,46 @@
 .yellow {
     color: yellow !important;
 }
+
+.lessons-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lessons-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.lessons-container ul li:hover {
+    background-color: lightblue;
+}
+
+.lessons-container ul li:focus {
+    outline: 2px solid orange;
+}
+
+.lessons-container ul li::selection {
+    background-color: yellow;
+}
+
+
+.lessons-container ul li:visited {
+    color: gray;
+}
+
+.lessons-container ul li:first-child {
+    font-weight: bold;
+}
+
+.lessons-container ul li:last-child {
+    font-style: italic;
+}
+
+.lessons-container ul li:nth-child(odd) {
+    color: green;
+}
+
+.lessons-container ul li:nth-child(even) {
+    color: blue;
+}
